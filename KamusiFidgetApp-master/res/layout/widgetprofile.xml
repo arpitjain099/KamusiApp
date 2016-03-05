@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="320dp"
+  android:layout_height="200dp"
+  android:layout_margin="@dimen/widget_margin"
+  android:orientation="horizontal"        
+  android:background="@drawable/backrepeat2">
+    
+    <TextView
+        android:id="@+id/kamusiURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"  
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#864b33"
+        android:textSize="13dp"        
+        android:text="kamusi.org" />
+
+      <ImageView
+          android:id="@+id/next"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|center"
+          android:layout_marginBottom="30dp"
+          android:layout_marginLeft="20dp"
+          android:src="@drawable/next" />
+     
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|center"          
+          android:layout_marginBottom="32dp"
+          android:layout_marginRight="20dp"
+          android:textColor="#ffffff"
+          android:text="Start" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="17dp"
+          android:layout_marginTop="22dp"
+          android:src="@drawable/profilepic" />     
+
+      <TextView
+          android:id="@+id/username"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#edc97a"
+          android:textStyle="bold"
+          android:layout_marginLeft="80dp"
+          android:layout_marginTop="30dp"
+          android:text="Guest User" />
+      
+         <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#edc97a"
+          android:layout_gravity="center|center" 
+          android:text="280 contribuitions" />
+         
+         <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#edc97a"
+          android:layout_gravity="center|center"                    
+          android:layout_marginTop="20dp"
+          android:text="English, French, Kurundi" />
+         
+          <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#edc97a"
+          android:textSize="12sp"
+          android:layout_marginLeft="80dp"
+          android:layout_marginTop="45dp"
+          android:text="Expert Level" />
+          
+                <ImageView
+          android:id="@+id/tips"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="20dp"
+          android:src="@drawable/info2" />
+      
+
+</FrameLayout>

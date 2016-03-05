@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KamusiFidgetApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="username">username</string>
+    <string name="login">Login</string>
+    <string name="error_message">error message</string>
+    <string name="kamusiorg">kamusi.org</string>
+    <string name="replace"> </string>      
+    <string name="tips">"Definitions are explanations of what a word means. They are not single words (those are synonyms). You can usually use a definition instead of the actual word.\n\nShort and sweet: A definition should be as brief as possible to explain the concept, but long enough to describe it fully. If the same word has different meanings, those are different concepts with different definitions - a definition in Kamusi only explains *one* concept.\n\nEasy does it: Use the simplest words you can - definitions should not force readers to jump around the dictionary more, unless technical terms are absolutely necessary.\n\nNo circles: Definitions should NOT contain the word that is being defined, nor its close relatives. 'Happiness' is 'A feeling of joy.', not 'The feeling of being happy.'\n\nDefinitions should not be circular - we cannot now say 'joy' is 'A feeling of happiness.'.\nNo fluff: Do not start with 'A term meaning', or 'This is a', or 'X refers to', etc.\n\nStyle: Begin with a Capital letter and end with a period."</string>
+
+</resources>

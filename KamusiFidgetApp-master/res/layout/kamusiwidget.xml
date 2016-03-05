@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="320dp"
+  android:layout_height="200dp"
+  android:padding="@dimen/widget_margin"
+    android:orientation="horizontal"
+    android:background="@drawable/backrepeat2">
+          
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#edc97a"
+       	    android:textSize="19sp"
+            android:textStyle="bold"
+            android:paddingTop="65dp"
+            android:text="Please login first" />
+        
+          <TextView
+        android:id="@+id/kamusiURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"  
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#864b33"
+        android:textSize="13sp"        
+        android:text="kamusi.org" />
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:paddingBottom="65dp"
+              android:src="@drawable/kamusi_logo" />
+
+</FrameLayout>

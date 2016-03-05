@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kamusi.kamusifidgetapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kamusi_icon2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+         >
+                
+        
+        <receiver android:name=".KamusiWidgetProvider" >
+        	android:label="@string/app_name"
+    		<intent-filter>
+        		<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        		 <action android:name="android.appwidget.action.APPWIDGET_LOGGEDIN"/>        		
+    		</intent-filter>
+    		<meta-data android:name="android.appwidget.provider"
+               android:resource="@xml/kamusiwidget_info" />
+		</receiver>
+        
+        <activity
+            android:name="org.kamusi.kamusifidgetapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </activity>               
+        
+        <activity android:name="org.kamusi.kamusifidgetapp.WidgetActivity"></activity>
+        
+    </application>
+
+</manifest>

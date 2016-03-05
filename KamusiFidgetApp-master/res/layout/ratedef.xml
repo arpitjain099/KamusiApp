@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="320dp"
+  android:layout_height="200dp"
+  android:layout_margin="@dimen/widget_margin"
+  android:orientation="horizontal"        
+  android:background="@drawable/backrepeat2">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="30dp"
+        android:textColor="#edc97a"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="traditional" />
+    
+    <TextView
+        android:id="@+id/kamusiURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"  
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#864b33"
+        android:textSize="13dp"        
+        android:text="kamusi.org" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/like" />
+    
+      <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/unlike" />
+
+      <ImageView
+          android:id="@+id/next"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="20dp"
+          android:src="@drawable/next" />
+      
+            <ImageView
+          android:id="@+id/profile"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top|right"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="65dp"
+          android:src="@drawable/usericon" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="85dp"
+          android:textColor="#edc97a"
+          android:layout_gravity="bottom|center"
+          android:textSize="13sp"
+          android:textStyle="bold"
+          android:text="Is this a good definition?" />
+      
+       <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"         
+          android:layout_marginBottom="65dp"
+          android:textColor="#edc97a"
+          android:textSize="12sp"
+          android:layout_gravity="bottom|center"
+          android:text="Pertaining to time-honored orthodox doctrines" />
+
+</FrameLayout>
